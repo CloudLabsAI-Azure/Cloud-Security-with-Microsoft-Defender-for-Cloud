@@ -5,63 +5,63 @@
     "BaseURL": "https://github.com/CloudLabsAI-Azure/Cloud-Security-with-Microsoft-Defender-for-Cloud",
     "Files": [
       {
-        "RawFilePath": "https://docs-api.cloudlabs.ai/repos/raw.githubusercontent.com/CloudLabsAI-Azure/Cloud-Security-with-Microsoft-Defender-for-Cloud/refs/heads/main/README.md",
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/Cloud-Security-with-Microsoft-Defender-for-Cloud/refs/heads/main/README.md",
         "Order": 1
       },
       {
-        "RawFilePath": "https://docs-api.cloudlabs.ai/repos/raw.githubusercontent.com/CloudLabsAI-Azure/Cloud-Security-with-Microsoft-Defender-for-Cloud/refs/heads/main/Day-1-Hands-on-Lab/overview.md",
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/Cloud-Security-with-Microsoft-Defender-for-Cloud/refs/heads/main/Day-1-Hands-on-Lab/overview.md",
         "Order": 2
       },
       {
-        "RawFilePath": "https://docs-api.cloudlabs.ai/repos/raw.githubusercontent.com/CloudLabsAI-Azure/Cloud-Security-with-Microsoft-Defender-for-Cloud/refs/heads/main/Day-1-Hands-on-Lab/Module-1.md",
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/Cloud-Security-with-Microsoft-Defender-for-Cloud/refs/heads/main/Day-1-Hands-on-Lab/Module-1.md",
         "Order": 3
       },
       {
-        "RawFilePath": "https://docs-api.cloudlabs.ai/repos/raw.githubusercontent.com/CloudLabsAI-Azure/Cloud-Security-with-Microsoft-Defender-for-Cloud/refs/heads/main/Day-1-Hands-on-Lab/Module-2.md",
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/Cloud-Security-with-Microsoft-Defender-for-Cloud/refs/heads/main/Day-1-Hands-on-Lab/Module-2.md",
         "Order": 4
       },
       {
-        "RawFilePath": "https://docs-api.cloudlabs.ai/repos/raw.githubusercontent.com/CloudLabsAI-Azure/Cloud-Security-with-Microsoft-Defender-for-Cloud/refs/heads/main/Day-1-Hands-on-Lab/Module-3.md",
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/Cloud-Security-with-Microsoft-Defender-for-Cloud/refs/heads/main/Day-1-Hands-on-Lab/Module-3.md",
         "Order": 5
       },
       {
-        "RawFilePath": "https://docs-api.cloudlabs.ai/repos/raw.githubusercontent.com/CloudLabsAI-Azure/Cloud-Security-with-Microsoft-Defender-for-Cloud/refs/heads/main/Day-1-Hands-on-Lab/Module-4.md",
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/Cloud-Security-with-Microsoft-Defender-for-Cloud/refs/heads/main/Day-1-Hands-on-Lab/Module-4.md",
         "Order": 6
       },
       {
-        "RawFilePath": "https://docs-api.cloudlabs.ai/repos/raw.githubusercontent.com/CloudLabsAI-Azure/Cloud-Security-with-Microsoft-Defender-for-Cloud/refs/heads/main/Day-2-Hands-on-Lab/overview.md",
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/Cloud-Security-with-Microsoft-Defender-for-Cloud/refs/heads/main/Day-2-Hands-on-Lab/overview.md",
         "Order": 7
       },
       {
-        "RawFilePath": "https://docs-api.cloudlabs.ai/repos/raw.githubusercontent.com/CloudLabsAI-Azure/Cloud-Security-with-Microsoft-Defender-for-Cloud/refs/heads/main/Day-2-Hands-on-Lab/Module1.md",
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/Cloud-Security-with-Microsoft-Defender-for-Cloud/refs/heads/main/Day-2-Hands-on-Lab/Module1.md",
         "Order": 8
       },
       {
-        "RawFilePath": "https://docs-api.cloudlabs.ai/repos/raw.githubusercontent.com/CloudLabsAI-Azure/Cloud-Security-with-Microsoft-Defender-for-Cloud/refs/heads/main/Day-2-Hands-on-Lab/Module2.md",
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/Cloud-Security-with-Microsoft-Defender-for-Cloud/refs/heads/main/Day-2-Hands-on-Lab/Module2.md",
         "Order": 9
       },
       {
-        "RawFilePath": "https://docs-api.cloudlabs.ai/repos/raw.githubusercontent.com/CloudLabsAI-AzureCloud-Security-with-Microsoft-Defender-for-Cloud/refs/heads/main/Day-2-Hands-on-Lab/Module3.md",
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-AzureCloud-Security-with-Microsoft-Defender-for-Cloud/refs/heads/main/Day-2-Hands-on-Lab/Module3.md",
         "Order": 10
       },
       {
-        "RawFilePath": "https://docs-api.cloudlabs.ai/repos/raw.githubusercontent.com/CloudLabsAI-Azure/Cloud-Security-with-Microsoft-Defender-for-Cloud/refs/heads/main/Day-3-Hands-on-Lab/overview.md",
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/Cloud-Security-with-Microsoft-Defender-for-Cloud/refs/heads/main/Day-3-Hands-on-Lab/overview.md",
         "Order": 11
       },
       {
-        "RawFilePath": "https://docs-api.cloudlabs.ai/repos/raw.githubusercontent.com/CloudLabsAI-Azure/Cloud-Security-with-Microsoft-Defender-for-Cloud/refs/heads/main/Day-3-Hands-on-Lab/Module1.md",
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/Cloud-Security-with-Microsoft-Defender-for-Cloud/refs/heads/main/Day-3-Hands-on-Lab/Module1.md",
         "Order": 12
       },
       {
-        "RawFilePath": "https://docs-api.cloudlabs.ai/repos/raw.githubusercontent.com/CloudLabsAI-Azure/Cloud-Security-with-Microsoft-Defender-for-Cloud/refs/heads/main/Day-3-Hands-on-Lab/Module2.md",
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/Cloud-Security-with-Microsoft-Defender-for-Cloud/refs/heads/main/Day-3-Hands-on-Lab/Module2.md",
         "Order": 13
       },
       {
-        "RawFilePath": "https://docs-api.cloudlabs.ai/repos/raw.githubusercontent.com/CloudLabsAI-Azure/Cloud-Security-with-Microsoft-Defender-for-Cloud/refs/heads/main/Day-3-Hands-on-Lab/Module3.md",
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/Cloud-Security-with-Microsoft-Defender-for-Cloud/refs/heads/main/Day-3-Hands-on-Lab/Module3.md",
         "Order": 14
       },
       {
-        "RawFilePath": "https://docs-api.cloudlabs.ai/repos/raw.githubusercontent.com/CloudLabsAI-Azure/Cloud-Security-with-Microsoft-Defender-for-Cloud/refs/heads/main/Day-3-Hands-on-Lab/Module4.md",
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/Cloud-Security-with-Microsoft-Defender-for-Cloud/refs/heads/main/Day-3-Hands-on-Lab/Module4.md",
         "Order": 15
       }
     ]
