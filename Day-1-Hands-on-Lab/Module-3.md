@@ -62,13 +62,13 @@ To simulate an alert:
 * Open **SQL Server Management Studio (SSMS)**.
 * Try running:
 
-```sql
--- Run this multiple times with wrong credentials to simulate brute-force
--- or simulate an injection query like
-SELECT * FROM Users WHERE username = 'admin' OR 1=1;
-```
+    ```sql
+    -- Run this multiple times with wrong credentials to simulate brute-force
+    -- or simulate an injection query like
+    SELECT * FROM Users WHERE username = 'admin' OR 1=1;
+    ```
 
-> ⚠️ These should only be done in a **test environment**. Do **not** simulate attacks in production.
+  > ⚠️ These should only be done in a **test environment**. Do **not** simulate attacks in production.
 
 ### Task 6: Review Alerts
 
