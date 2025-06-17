@@ -1,0 +1,24 @@
+[
+   {
+    "Name": "Day-02-Hands-On-Lab",
+    "Language": "English",
+    "Files": [
+       {
+        "RawFilePath": "https://docs-api.cloudlabs.ai/repos/raw.githubusercontent.com/CloudLabsAI-Azure/Cloud-Security-with-Microsoft-Defender-for-Cloud/refs/heads/main/Day-2-Hands-on-Lab/overview.md",
+        "Order": 1
+        }, 
+       {
+        "RawFilePath": "https://docs-api.cloudlabs.ai/repos/raw.githubusercontent.com/CloudLabsAI-Azure/Cloud-Security-with-Microsoft-Defender-for-Cloud/refs/heads/main/Day-2-Hands-on-Lab/Module-1.md",
+        "Order": 2
+        },
+        {
+        "RawFilePath": "https://docs-api.cloudlabs.ai/repos/raw.githubusercontent.com/CloudLabsAI-Azure/Cloud-Security-with-Microsoft-Defender-for-Cloud/refs/heads/main/Day-2-Hands-on-Lab/Module-2.md",
+        "Order": 3
+       },
+       {
+        "RawFilePath": "https://docs-api.cloudlabs.ai/repos/raw.githubusercontent.com/CloudLabsAI-Azure/Cloud-Security-with-Microsoft-Defender-for-Cloud/refs/heads/main/Day-2-Hands-on-Lab/Module-3.md",
+        "Order": 4
+      }
+     ]  
+   }
+]
