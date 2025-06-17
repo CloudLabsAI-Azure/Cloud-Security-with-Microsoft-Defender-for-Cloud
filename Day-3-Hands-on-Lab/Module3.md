@@ -1,4 +1,4 @@
-### Exercise 3: Threat Analysis Using Microsoft Security Copilot (Read-Only)
+# Exercise 3: Threat Analysis Using Microsoft Security Copilot (Read-Only)
 
 ## Overview:
 

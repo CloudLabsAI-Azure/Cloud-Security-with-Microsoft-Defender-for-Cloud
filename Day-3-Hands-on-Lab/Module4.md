@@ -1,4 +1,4 @@
-# Exercise 3: Advanced Alert Investigation with Microsoft Defender and Sentinel 
+# Exercise 4: Advanced Alert Investigation with Microsoft Defender and Sentinel 
 
 ## Overview:
 
