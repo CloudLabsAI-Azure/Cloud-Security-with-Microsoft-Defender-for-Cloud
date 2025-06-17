@@ -1,11 +1,11 @@
-# Module 1: Securing Code Repositories with Microsoft Defender for Cloud 
+# Exercise 1: Securing Code Repositories with Microsoft Defender for Cloud 
 
 ## Overview:
-In this lab, you'll 
+In this lab, you will explore how to identify and mitigate security risks in CI/CD pipelines using Azure DevOps. You'll learn how to integrate security tools such as GitHub Advanced Security (GHAS) and connect your Azure DevOps environment to Microsoft Defender for Cloud (MDC) for enhanced visibility and protection. This hands-on lab focuses on securing DevOps workflows and ensuring compliance with modern security practices. 
 
 ## Estimated Duration: 60 Minutes
 
-## Lab Objectives :
+## Lab Objectives:
 
 In this lab, you will complete the following tasks:
 
@@ -964,6 +964,6 @@ To ensure Azure DevOps Advanced Security is enabled in your organization, you ca
  
 ## Summary:
 
-In this module, you explored
+By completing this lab, you gained hands-on experience in securing DevOps workflows by identifying vulnerabilities in CI/CD pipelines, integrating GitHub Advanced Security (GHAS), and connecting Azure DevOps to Microsoft Defender for Cloud for continuous security monitoring and threat protection.
 
 ## You have successfully completed the lab >> Click on Next

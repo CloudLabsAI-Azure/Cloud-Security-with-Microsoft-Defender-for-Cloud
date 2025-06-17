@@ -1,4 +1,4 @@
-# Module 1: Getting Started with Microsoft Defender for Cloud
+# Exercise 1: Getting Started with Microsoft Defender for Cloud
 
 ### Estimated Duration: 30 minutes
 

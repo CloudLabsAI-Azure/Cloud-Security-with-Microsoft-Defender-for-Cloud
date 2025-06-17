@@ -1,4 +1,4 @@
-# Module 3: Investigating and Responding to Security Alerts
+# Exercise 3: Investigating and Responding to Security Alerts
 
 ### Task 1: Accessing Security Alerts in Microsoft Defender for Cloud
 
@@ -134,3 +134,4 @@ By completing this guide, you have:
 * Taken action to remediate security threats
 * Configured alert forwarding and optional Sentinel integration
 
+## You have successfully completed the lab >> Click on Next

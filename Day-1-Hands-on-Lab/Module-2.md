@@ -1,5 +1,5 @@
 
-# Module 2: Securing Azure Storage with Microsoft Defender 
+# Exercise 2: Securing Azure Storage with Microsoft Defender 
 
 ## Overview:
 
@@ -369,4 +369,4 @@ In this task, you will learn how to create workflow automation in Microsoft Defe
 
 By completing this lab, you will have gained practical experience in securing Azure Storage Accounts using Microsoft Defender for Storage. You will know how to enable the Defender for Storage plan, create storage containers, upload and detect malware, and automate the response to security threats with Logic Apps. These steps help maintain a high level of security for your storage environments, ensuring rapid identification and mitigation of potential risks.
 
-## You have successfully completed the lab
+## You have successfully completed the lab >> Click on Next

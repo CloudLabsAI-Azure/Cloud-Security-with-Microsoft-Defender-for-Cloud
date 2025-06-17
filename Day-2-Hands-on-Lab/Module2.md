@@ -1,4 +1,4 @@
-# Module 2: Securing VMs with Azure Security Baselines
+# Exercise 2: Securing VMs with Azure Security Baselines
 
 ### Task 1: Accessing Microsoft Defender for Cloud
 
@@ -8,11 +8,8 @@ In this task, you will navigate to **Microsoft Defender for Cloud** to begin app
 
 2. In the top search bar, type **Microsoft Defender** and select **Microsoft Defender for Cloud** from the results.
 
-   ![](./images/M0-T1-S1.2.png)
 
 3. This opens the **Overview** page, showing the security posture of your environment.
-
-
 
 ### Task 2: Viewing Security Recommendations for VMs
 
@@ -28,14 +25,11 @@ In this task, you will identify and review baseline security recommendations spe
    * **Provision the Log Analytics agent**
    * **Apply system updates**
 
-   ![](./images/task2.1.png)
-
 4. Click on any recommendation to view:
 
    * Affected VMs
    * Security impact
    * Remediation guidance
-
 
 
 ### Task 3: Applying Security Baseline Recommendations
@@ -48,16 +42,12 @@ In this task, you will apply key baseline settings to improve the security postu
 
 3. You will be presented with **"Remediate"** or **"Fix"** buttons (if automated remediation is supported).
 
-   ![](./images/task3.1.png)
-
 4. If automation is not available, follow the **manual remediation steps**, such as:
 
    * Enabling automatic OS updates
    * Installing specific agents (e.g., Dependency, Monitoring, or Vulnerability Assessment agents)
 
 > **Note:** Some security recommendations are implemented using Azure Policy with `DeployIfNotExists` effect, which auto-remediates where possible.
-
-
 
 ### Task 4: Enabling Just-In-Time (JIT) VM Access
 
@@ -75,13 +65,9 @@ In this task, you will protect your VM against brute force and port scanning att
    * Allowed source IP ranges
    * Maximum request time (e.g., 1–3 hours)
 
-   ![](./images/task4.1.png)
-
 5. Click **Save** to enforce JIT access on the VM.
 
 > **Note:** When JIT is enabled, ports are closed by default and only opened on request through Defender for Cloud.
-
-
 
 ### Task 5: Auditing VM Compliance with Security Baselines
 
@@ -99,10 +85,6 @@ In this task, you will evaluate how well your VMs adhere to baseline controls us
    * Resource-level compliance state
    * Remediation guidance
 
-   ![](./images/task5.1.png)
-
-
-
 ### Task 6: Enabling Defender for Servers Plan
 
 To ensure full coverage of VM baselines, you must enable **Microsoft Defender for Servers**, which includes threat protection, endpoint detection, and security baseline enforcement.
@@ -115,8 +97,6 @@ To ensure full coverage of VM baselines, you must enable **Microsoft Defender fo
 
    > **Plan 2** includes additional features such as Vulnerability Assessment, EDR, and File Integrity Monitoring.
 
-
-
 ### Summary
 
 By completing this guide, you have:
@@ -126,8 +106,4 @@ By completing this guide, you have:
 * Monitored compliance with Azure Security Benchmark
 * Activated Defender for Servers for advanced threat protection
 
-These steps collectively harden your virtual machines against common cloud threats using Microsoft’s built-in security baselines.
-
-
-
-Let me know if you'd like this in markdown or want a downloadable PDF!
+## You have successfully completed the lab >> Click on Next

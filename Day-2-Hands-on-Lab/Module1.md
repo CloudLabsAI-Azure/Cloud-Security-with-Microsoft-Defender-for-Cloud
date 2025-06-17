@@ -1,4 +1,4 @@
-# Module 1: Enhancing Compliance with Defender for Cloud 
+# Exercise 1: Enhancing Compliance with Defender for Cloud 
 
 ### Task 1: Accessing Microsoft Defender for Cloud
 
@@ -8,11 +8,7 @@ In this task, you will open Microsoft Defender for Cloud to begin checking the c
 
 2. In the search bar at the top, type **Microsoft Defender** and select **Microsoft Defender for Cloud** from the results.
 
-   ![](./images/M0-T1-S1.2.png)
-
 3. This will open the **Overview** dashboard for Microsoft Defender for Cloud, where you can view the overall security posture and regulatory compliance status of your environment.
-
-
 
 ### Task 2: Navigating to Regulatory Compliance Dashboard
 
@@ -31,8 +27,6 @@ In this task, you will access the **Regulatory compliance** section, which provi
 
 3. Each standard displays a **compliance score** and a summary of **passed** and **failed** assessments.
 
-
-
 ### Task 3: Reviewing Compliance Controls and Assessments
 
 In this task, you will review detailed compliance controls and how each Azure resource aligns with them.
@@ -47,15 +41,11 @@ In this task, you will review detailed compliance controls and how each Azure re
    * **Compliance state** (Healthy, Unhealthy, Not applicable)
    * **Number of resources evaluated**
 
-   ![Compliance Control Example](./images/task3.1.png)
-
 4. Click on a specific **control** to see:
 
    * A list of affected resources
    * The **description** of the control
    * **Remediation steps** and impact
-
-
 
 ### Task 4: Implementing Remediation Actions
 
@@ -71,11 +61,7 @@ In this task, you will take action to remediate non-compliant resources using re
    * Use the PowerShell/CLI/script provided in the remediation guidance
    * Manually update the resource configuration in Azure
 
-   ![Remediation View](./images/task4.1.png)
-
    > **Note:** Some remediations may require elevated privileges (e.g., Contributor or Owner role) to perform changes on resources.
-
-
 
 ### Task 5: Enabling Auto-Remediation and Continuous Export
 
@@ -92,11 +78,7 @@ In this task, you will configure automatic handling and reporting of compliance 
    * Regulatory compliance data
    * Security recommendations
 
-   ![Continuous Export](./images/task5.1.png)
-
    > **Tip:** Exporting compliance data helps integrate with external SIEM or audit systems.
-
-
 
 ### Task 6: Tracking Compliance Over Time
 
@@ -114,7 +96,6 @@ In this task, you will use the dashboard and reports to monitor compliance progr
 
 4. Download the compliance reports in CSV or PDF format for documentation or audit reviews.
 
-
 ### Summary
 
 By completing this guide, you have:
@@ -124,4 +105,4 @@ By completing this guide, you have:
 * Taken steps to remediate security issues using guided recommendations
 * Enabled continuous export for compliance reporting and audit tracking
 
-These practices strengthen your organization’s cloud governance and help meet key industry or regulatory standards.
+## You have successfully completed the lab >> Click on Next

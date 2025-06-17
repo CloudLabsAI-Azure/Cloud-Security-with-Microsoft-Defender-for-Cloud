@@ -1,5 +1,5 @@
 
-# Module 3: Protecting SQL Servers on Azure Virtual Machines
+# Exercise 3: Protecting SQL Servers on Azure Virtual Machines
 
 ## Overview:
 
@@ -82,4 +82,4 @@ To simulate an alert:
 By completing this lab, you enabled Microsoft Defender for SQL on Azure VMs to detect and respond to SQL-related threats. This provides real-time threat detection, security alerts, and continuous protection for your SQL workloads.
 
 
-## You have successfully completed the lab
+## You have successfully completed the lab >> Click on Next
