@@ -1,4 +1,4 @@
-# Cloud-Security-with-Microsoft-Defender-for-Cloud
+# Cloud Security with Microsoft Defender for Cloud
 
 ## Overview
 
