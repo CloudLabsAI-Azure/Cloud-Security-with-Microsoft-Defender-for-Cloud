@@ -5,14 +5,23 @@ In this lab, you will explore how to provision and use Microsoft Defender Extern
 
 ## Estimated Duration: 45 Minutes
 
+## Lab Objectives:
+
+In this lab, you will complete the following tasks:
+- Task 1: Understanding Microsoft Defender ESAM
+- Task 2: Enabling Microsoft Defender ESAM
+- Task 3: Accessing Defender ESAM Dashboard
+- Task 4: Reviewing Discovered Assets
+- Task 5: Investigating Exposed Services and Risks
+- Task 6: Taking Action on Vulnerabilities
+- Task 7: Setting Up Alerts and Notifications
+
 ### Task 1: Understanding Microsoft Defender ESAM
 
 Before provisioning, it’s important to understand what **Defender External Surface Attack Management (ESAM)** is.
 
 * **Defender ESAM** provides a comprehensive view of your **external attack surface**, discovering unknown internet-facing assets, shadow IT, exposed services, and misconfigurations.
 * It helps identify threats **before** attackers can exploit them, enabling proactive mitigation.
-
-
 
 ### Task 2: Enabling Microsoft Defender ESAM
 
@@ -36,9 +45,7 @@ In this task, you’ll enable Microsoft Defender ESAM from the Azure portal.
 
    ![](./images/task2.1.png)
 
-> ⚠️ **Note:** ESAM may require additional permissions or a billing-enabled Azure subscription.
-
-
+> **Note:** ESAM may require additional permissions or a billing-enabled Azure subscription.
 
 ### Task 3: Accessing Defender ESAM Dashboard
 
@@ -81,8 +88,6 @@ In this task, you will explore assets that Defender ESAM has discovered.
    * History of exposure
 
 4. Use **Export** if you want to download the asset list.
-
-
 
 ### Task 5: Investigating Exposed Services and Risks
 

@@ -1,5 +1,20 @@
 # Exercise 3: Investigating and Responding to Security Alerts
 
+## Overivew:
+In this exercise, you will explore how to detect, investigate, and respond to real-time security alerts using Microsoft Defender for Cloud. You will learn how to analyze alert details, filter by severity, take corrective actions, and extend the investigation using Microsoft Sentinel for advanced threat hunting and automation. The lab also covers alert suppression, notifications, and incident management best practices.
+
+## Estimated Duration: 60 Minutes
+
+## **Lab Objectives:**
+
+- Task 1: Accessing Security Alerts in Microsoft Defender for Cloud
+- Task 2: Filtering and Reviewing a Specific Alert
+- Task 3: Investigating the Alert Details
+- Task 4: Triggering Investigation in Microsoft Sentinel
+- Task 5: Responding to the Alert
+- Task 6: Suppressing or Dismissing Alerts
+- Task 7: Enabling Email Notifications for Alerts
+
 ### Task 1: Accessing Security Alerts in Microsoft Defender for Cloud
 
 In this task, you will learn how to locate and review security alerts that Defender for Cloud generates when it detects suspicious activities or threats.
@@ -20,8 +35,6 @@ In this task, you will learn how to locate and review security alerts that Defen
    * **Medium** – Review recommended
    * **Low** – Informational or best practices
 
-
-
 ### Task 2: Filtering and Reviewing a Specific Alert
 
 In this task, you will filter and select an alert for investigation.
@@ -39,10 +52,6 @@ In this task, you will filter and select an alert for investigation.
 
 3. Click on the alert name to view its **details**.
 
-   ![](./images/task2.1.png)
-
-
-
 ### Task 3: Investigating the Alert Details
 
 In this task, you will analyze the context of the selected alert to understand the scope of the issue.
@@ -58,11 +67,7 @@ In this task, you will analyze the context of the selected alert to understand t
 
 2. Use the **Take action** section to follow guided remediation steps or export data for further analysis.
 
-   ![](./images/task3.1.png)
-
-
-
-### Task 4: Triggering Investigation in Microsoft Sentinel (Optional)
+### Task 4: Triggering Investigation in Microsoft Sentinel
 
 In this task, if Microsoft Sentinel is connected, you can extend the investigation using its deeper analytics and investigation tools.
 
@@ -72,11 +77,7 @@ In this task, if Microsoft Sentinel is connected, you can extend the investigati
 
 3. Use **Entity behavior**, **Timeline**, and **Graph view** to track threat paths and lateral movements.
 
-   ![](./images/task4.1.png)
-
 > **Note:** Sentinel integration is optional but enhances threat investigation significantly through AI-assisted correlation and hunting capabilities.
-
-
 
 ### Task 5: Responding to the Alert
 
@@ -95,7 +96,7 @@ In this task, you will take remediation actions based on Defender for Cloud reco
 
 > **Tip:** Assign the alert to an analyst or track it via a **ticketing system** if connected through Logic Apps or Sentinel playbooks.
 
-### Task 6: Suppressing or Dismissing Alerts (If Needed)
+### Task 6: Suppressing or Dismissing Alerts 
 
 In this task, you will manage alert noise and false positives.
 
@@ -106,8 +107,6 @@ In this task, you will manage alert noise and false positives.
    * Resource ID
    * Alert type
    * Source
-
-   ![](./images/task6.1.png)
 
 > **Caution:** Only suppress alerts when you're certain they are benign to avoid missing real threats.
 

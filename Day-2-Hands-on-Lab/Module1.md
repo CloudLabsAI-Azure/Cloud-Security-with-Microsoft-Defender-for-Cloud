@@ -1,5 +1,21 @@
 # Exercise 1: Enhancing Compliance with Defender for Cloud 
 
+## Overview:
+In this exercise, you will learn how to assess and improve the regulatory compliance of your Azure environment using Microsoft Defender for Cloud. You'll explore built-in compliance standards like Azure Security Benchmark, ISO 27001, and more. You’ll review compliance controls, take remediation actions, enable continuous export, and track your compliance score over time.
+
+## Estimated Duration: 45 Minutes
+
+## Lab Objectives:
+
+By the end of this lab, you will be able to:
+
+- Task 1: Accessing Microsoft Defender for Cloud
+- Task 2: Navigating to Regulatory Compliance Dashboard
+- Task 3: Reviewing Compliance Controls and Assessments
+- Task 4: Implementing Remediation Actions
+- Task 5: Enabling Auto-Remediation and Continuous Export
+- Task 6: Tracking Compliance Over Time
+
 ### Task 1: Accessing Microsoft Defender for Cloud
 
 In this task, you will open Microsoft Defender for Cloud to begin checking the compliance status of your Azure resources.
@@ -15,8 +31,6 @@ In this task, you will open Microsoft Defender for Cloud to begin checking the c
 In this task, you will access the **Regulatory compliance** section, which provides an overview of how your resources align with industry standards.
 
 1. From the **Defender for Cloud** left-hand navigation pane, click on **Regulatory compliance** under the **Cloud security** section.
-
-   ![Regulatory Compliance Navigation](./images/task2.1.png)
 
 2. The dashboard shows a list of supported **compliance standards** such as:
 

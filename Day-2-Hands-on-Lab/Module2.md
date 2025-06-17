@@ -1,5 +1,21 @@
 # Exercise 2: Securing VMs with Azure Security Baselines
 
+## Overview:
+In this exercise, you will strengthen the security posture of your Azure Virtual Machines by applying security baseline recommendations provided by Microsoft Defender for Cloud. You will review key recommendations, implement Just-In-Time (JIT) access controls, and ensure compliance with security benchmarks such as the Azure Security Benchmark. You will also enable Defender for Servers to enhance threat protection and endpoint monitoring for your VMs.
+
+## Estimated Duration: 60 Minutes
+
+## Lab Objectives:
+
+By the end of this lab, you will be able to:
+
+- Task 1: Accessing Microsoft Defender for Cloud
+- Task 2: Viewing Security Recommendations for VMs
+- Task 3: Applying Security Baseline Recommendations
+- Task 4: Enabling Just-In-Time (JIT) VM Access
+- Task 5: Auditing VM Compliance with Security Baselines
+- Task 6: Enabling Defender for Servers Plan
+
 ### Task 1: Accessing Microsoft Defender for Cloud
 
 In this task, you will navigate to **Microsoft Defender for Cloud** to begin applying security baselines to your Azure Virtual Machines (VMs).
