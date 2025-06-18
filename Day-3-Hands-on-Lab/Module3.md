@@ -4,18 +4,11 @@
 
 In this module, you will explore how to use **Microsoft Security Copilot**—both within the Azure portal and through the standalone Security Copilot experience—to analyze threat intelligence, understand your organization’s attack surface, and respond effectively to cyber threats.
 
-> ⚠️ **Note:** Security Copilot uses advanced generative AI models and may incur additional costs depending on the volume of queries and usage duration.
-
-## Estimated Duration: 20–30 Minutes
-
+## Estimated Duration: 30 Minutes
 
 ## Module Mode:
 
-🔒 **Read-only content (no live resources will be deployed)**
-or
-🧪 **Standalone lab (recommended for hands-on experience)**
-
-> You may choose to run this module in a **read-only simulation mode** or request a **dedicated lab instance** for interactive usage. The standalone lab provides access to pre-configured logs, threat data, and Security Copilot access.
+🔒 **Read-only content**
 
 ### Lab Objectives:
 
@@ -101,3 +94,5 @@ By completing this module, you have:
 * Queried threat intelligence and security alerts using natural language
 * Analyzed attack surface data using Defender ESAM integration
 * Created and exported automated reports
+
+## You have successfully completed the lab >> Click on Next
