@@ -1,6 +1,6 @@
 # Hands-on Labs - Day 3
 
-## Cloud Security with Microsoft Defender for Cloud
+## Defender for DevOps and Advanced Threat Detection
 
 ### Estimated Duration: 4 Hours
 

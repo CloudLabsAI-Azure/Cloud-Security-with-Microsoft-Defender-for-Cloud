@@ -1,7 +1,6 @@
 # Exercise 3: Threat Analysis Using Microsoft Security Copilot (Read-Only)
 
 ## Overview:
-
 In this module, you will explore how to use **Microsoft Security Copilot**—both within the Azure portal and through the standalone Security Copilot experience—to analyze threat intelligence, understand your organization’s attack surface, and respond effectively to cyber threats.
 
 ## Estimated Duration: 30 Minutes

@@ -1,6 +1,6 @@
 # Hands-on Labs - Day 1
 
-## Cloud Security with Microsoft Defender for Cloud
+## Microsoft Defender for Core Resource Protection
 
 ### Estimated Duration: 4 Hours
 

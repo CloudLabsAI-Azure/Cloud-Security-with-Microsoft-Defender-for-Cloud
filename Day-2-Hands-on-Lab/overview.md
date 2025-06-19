@@ -1,6 +1,6 @@
 # Hands-on Labs - Day 2
 
-## Cloud Security with Microsoft Defender for Cloud
+## Compliance and Security Baselines
 
 ### Estimated Duration: 4 Hours
 
