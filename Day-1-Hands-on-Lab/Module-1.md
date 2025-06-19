@@ -1,108 +1,103 @@
 # Exercise 1: Getting Started with Microsoft Defender for Cloud
 
-### Estimated Duration: 30 minutes
-
-## Lab Scenario
-
-You are a cloud security administrator tasked with securing your organization's Azure environment. This lab provides a hands-on experience in enhancing cloud security using Microsoft Defender for Cloud. You will enable Microsoft Defender for Cloud, assess the status of Defender coverage across their subscription and workspace, and configure data collection settings to optimize security monitoring. This lab ensures that you can effectively manage and secure your cloud environments.
-
 ## Lab Objectives
-In this lab, you will complete the following tasks:
 
-- Task 1: Enabling Microsoft Defender for Cloud 
-- Task 2: Get the status of the Defender coverage on the subscription and the workspace
-- Task 3: Configure the data collection settings in Microsoft Defender for Cloud 
+ In this lab, you will perform the following:
+- Task 1: Enable Microsoft Defender for Cloud
+- Task 2: Understanding the Microsoft Defender for Cloud Dashboard
 
-### Task 1: Enabling Microsoft Defender for Cloud 
+### Estimated Timing: 25 minutes
 
-In this task, you will learn how to enable and upgrade to the new **Defender CSPM plan** in **Microsoft Defender for Cloud**.
+## Architecture Diagram
 
-1. In the search bar, type **Microsoft Defender (1)** and select **Microsoft Defender for Cloud (2)** from the results.
+  ![Picture 1](../Media/Mod5_L1_Ex1.png)
 
-   ![](./images/M0-T1-S1.2.png)
+### Task 1: Enable Microsoft Defender for Cloud
 
-2. On the **Overview (1)** page, Click on **Down arrow (2)** to Scroll down and find for **Upgrade to new Defender CSPM plan** and select **Click here to upgrade (3)**.
+In this task, you'll enable and configure Microsoft Defender for Cloud.
 
-   ![Microsoft Defender for Cloud](./images/task1.1.png)
+1. In the Search bar of the Microsoft Azure portal, type **Defender for Cloud (1)**, then select **Microsoft Defender for Cloud (2)**.
 
-1. You will be redirected to the **Getting started** page , now select the **Workspace name (1)**. Click on **Upgrade (2)**.
+   ![Picture 1](../Media/lab5-8.png)
 
-   ![Microsoft Defender for Cloud](./images/task1.2.png)
+1. In the left navigation menu for Microsoft Defender for Cloud, expand the *Management* section , and select **Environment settings**.
 
-   >**Note:** The upgrade may take a few minutes to complete, so please wait.
+   ![Picture 1](../Media/lab5-9.png)
 
-### Task 2: Get the status of the Defender coverage on the subscription and the workspace
+1. Select the **Expand all** button to view all subscriptions and resources.
 
-In this task, you will learn how to verify the **Microsoft Defender for Cloud** coverage status for your **subscription** and **workspace**, enabling key security plans like **Servers** and **Databases**.
+1. Select the your subscription (or equivalent name in your Language).
 
-1. Go back to the Microsoft Defender for Cloud blade and click on **Environment settings (1)** under **Management**. Expand **Azure (2)** to reveal the **Tenant Root Group**, then expand **Tenant Root Group (3)** to display the **Subscription**. Next, expand **Subscription (4)** to show the **Workspace**. You’ll notice that the Defender coverage is **11/13 plans (5)** for the subscription and **2/2 plans (5)** for the workspace, indicating that your environment is now fully protected with Microsoft Defender for Cloud.
+   ![Picture 1](../Media/lab5-3.png)
 
-   ![Environment settings](./images/dfc2.png)
+1. Review the Azure resources that are now protected with the Defender for Cloud plans.
 
-2. In the **Environment settings**, click on **Subscription** and observe how the Microsoft Defender for Cloud plans are enabled.
+    >**Important:** If all Defender plans are *Off*, click **Enable all plans**. Then, select the *$200/month Microsoft Defender for APIs Plan 1* and click **Save**. Finally, click **Save** again at the top of the page and wait for the notification *"Defender plans (for your) subscription were saved successfully!"* to appear.
 
-   ![Environment settings](./images/dfc3.png)
+1. Review the **Azure resources** that are currently protected under the **Defender for Cloud plans**.
 
-1. Ensure that plans for **Servers (1)** and **Databases (2)** are turned **On**.
+1. In the **Cloud Security Posture Management (CSPM)** section, set **Defender CSPM** to **On (1)**.
 
-   ![Environment settings](./images/lab1-image23.png)
+   ![Picture 1](../Media/lab5y1.png)
 
-### Task 3: Configure Data Collection Settings Using Azure Monitor Agent (AMA)
+1. In the **Cloud Workload Protection (CWP)** section, set **Servers Plan 2 (2)** to **On (3)**.
 
-In this task, you will learn how to create and configure a **Data Collection Rule (DCR)** using **Azure Monitor Agent (AMA)** to collect and send Windows event logs from virtual machines to **Azure Monitor Logs** for centralized monitoring.
+1. Click the **Save (4)** button at the top of the page.
 
-1. In the search bar, type **Monitor (1)** and select **Monitor (2)** from the search results.
+1. Select the **Settings & monitoring** tab from the Settings area (next to Save).
 
-   ![Microsoft Defender for Cloud](./images/task1-rd2.png)
+   ![Picture 1](../Media/lab5-10.png)
 
-1. On the Monitor menu in the Azure portal under **Settings (1)**, select **Data Collection Rules (2)**  > **Create(3)** to open the DCR creation page.
+1. Review the monitoring extensions. It includes configurations for **Virtual Machines, Containers, and Storage Accounts**.
 
-   ![Microsoft Defender for Cloud](./images/task1.3.png)
+1. Close the "Settings & monitoring" page by selecting the **X** on the upper right of the page.
 
-1. On the Basic page, fill in the following fields with the appropriate values, then click on the **Resources (6)** tab:
+   ![Picture 1](../Media/lab5-11.png)
 
-   - **Rule Name:** Enter **Production-default (1)**
-   - **Subscription:** Select the subscription from the drop-down menu **(2)**
-   - **Resource group:** Choose the resource group named **lab-vm (3)**
-   - **Region:** Enter **West Us (4) (Select the lab-vm resource group region)**
-   - **Platform Type:** Click on **All (5)**
-  
-     ![Microsoft Defender for Cloud](./images/task1-rd1.png)
+1. Close the settings page by selecting the 'X' on the upper right of the page to go back to the **Environment settings**.
 
-1. The Resources page allows you to add VMs to be associated with the DCR. Select **+ Add resources** to select resources.
+### Task 2: Understanding the Microsoft Defender for Cloud Dashboard
 
-   ![Microsoft Defender for Cloud](./images/task1.4.png)
+In this task, you will explore the Microsoft Defender for Cloud dashboard to familiarize yourself with its interface, features, and how it provides insights into your cloud environment's security posture.
 
-1. Under Subscription, expand Resource Groups and select the Virtual Machines that need to be associated with Data Collection Rules, and click on **Apply**. 
+1. In the Search bar of the Microsoft Azure portal, type **Defender for Cloud (1)**, then select **Microsoft Defender for Cloud (2)**.
 
-   ![Microsoft Defender for Cloud](./images/task1.61.png)
+   ![Picture 1](../Media/lab5-8.png)
 
-1. On the **Collect and deliver page (1)**, click on **Add data source (2)**, which allows you to add and configure data sources for the DCR and a destination for each.
+1. In the left navigation menu for Microsoft Defender for Cloud, under the *General* section, select **Overview**.
 
-   ![Microsoft Defender for Cloud](./images/task1.7.png)
+   ![Picture 1](../Media/lab5-12.png)
 
-1. On the **Data Source** Pane, Select a Data source **Windows Event Logs (1)** from the drop-down, choose **Basic (2)**, and then check all the fields **(3)** under Application, security , System and click on **Next: Destination (4)**.
+1. The **Overview blade** offers a unified view of the **security posture** and includes multiple independent **cloud security pillars**, such as **Security posture**, **Regulatory compliance**, **Workload protections**, **Firewall Manager**, **Inventory**, and **Information Protection (preview)**. Each pillar also has its own dedicated dashboard, providing **deeper insights** and **actions** for that area, ensuring **easy access** and **better visibility** for security professionals.
 
-   ![Microsoft Defender for Cloud](./images/task1.8.png)
+    >**Note:** The top menu bar features a **Subscriptions** button, enabling you to view and filter subscriptions; in this lab, we will use just one subscription, but selecting different or additional subscriptions will update the interface to reflect the **security posture** of the selected subscriptions.
 
-1. On the **Destination** Pane, click on **+ Add destination (1)**  destinations for each data source. select **Azure Monitor Logs (2)** for destination type , choose the **Subscription (3)** from the drop-down, select your **Workspace (4)** from the destination details and then click on **Add data source (5)**.
+1. Click on the **What’s new** icon link – a new tab opens with the latest release notes where you can stay current on the new features, bug fixes, and more.
 
-   ![Microsoft Defender for Cloud](./images/task1.9.png)
+    ![Picture 1](../Media/lab5-13.png)
 
-1. Review the settings on the **Review + Create** page to ensure that all configurations for the Data Collection Rule (DCR), including resources, data sources, and destinations, are accurate. Once confirmed, click **Create** to finalize the setup.
+    >**Note:** The high-level numbers in the top menu provide a summary of your subscriptions, active recommendations, security alerts, and connected cloud accounts.
 
-   ![Microsoft Defender for Cloud](./images/task1.10.png)
+1. From the top menu bar, select **Azure subscriptions**. This will bring you into the environment settings where you can select from the available subscriptions.
 
-   >**Note:** Creating the DCR establishes a connection between the specified data sources and destinations. This ensures that the configured VMs automatically send the selected data (e.g., Windows Event Logs) to the specified Azure Monitor Logs workspace, facilitating centralized monitoring and analysis.
+   ![Picture 1](../Media/lab5-14.png)
 
- ## Summary
+1. Return to the **Overview** page, and review the **Security posture** tile. You can see your current **Secure score** along with the number of completed controls and recommendations. Selecting this tile will redirect you to a drill-down view across subscriptions.
 
-In this lab, you have enabled Microsoft Defender for Cloud, received the status of the Defender coverage on the subscription and the workspace, and configured the data collection settings in Microsoft Defender for Cloud.
+1. On the **Regulatory compliance** tile, you can gain insights into your compliance posture through the continuous assessment of both **Azure** and **hybrid cloud environments**. This tile displays standards such as the **Microsoft Cloud Security benchmark** and the **Lowest compliance regulatory standard**. To view the data, you must first add **Security policies**.
 
-In this lab, you completed the following tasks:
+   ![Picture 1](../Media/lab5-16.png)
 
-- Enabled Microsoft Defender for Cloud  
-- Reviewed Defender coverage status for the subscription and Log Analytics workspace  
-- Configured data collection settings within Microsoft Defender for Cloud  
- 
- ### You have successfully completed the lab >> Click on Next
+1. Selecting this tile will redirect you to the **Regulatory compliance** dashboard – where you can add additional standards and explore the current ones.
+
+1. We will continue exploring *Microsoft Defender for Cloud* **Security posture** and **Regulatory compliance** in the next exercise.
+
+
+## Review
+
+In this lab, you have completed the following:
+
+- Enabled Microsoft Defender for Cloud
+- Explored the Microsoft Defender for Cloud Dashboard
+
+## Select **Next** to continue to Lab 2
